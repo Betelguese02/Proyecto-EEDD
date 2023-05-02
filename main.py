@@ -2,7 +2,6 @@
 from doubleLinkedList import DoubleLinkedList
 
 if __name__ == '__main__':
-  productDict = {}
   with open("BDD.txt", "r") as fileData:
     data = fileData.readlines()
 
